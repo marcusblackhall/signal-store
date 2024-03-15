@@ -1,0 +1,19 @@
+:host {
+  display : flex;
+  flex-direction: column;
+  align-items : center;
+}
+
+.todos-list, .todo-input {
+  width: 100%
+}
+
+.todo-item {
+  display: flex;
+  align-items : center;
+}
+
+.todo-delete {
+  margin-right: 10px;
+  cursor: ponter ;
+}
